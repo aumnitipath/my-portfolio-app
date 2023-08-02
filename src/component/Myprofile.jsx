@@ -1,4 +1,3 @@
-import React from "react";
 import "./Myprofile.css";
 import { FaFacebook } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
@@ -30,7 +29,10 @@ function Myprofile() {
 
           <div className="follow">
             <span>Follow me</span>
-            <a href="" className={"facebook"}>
+            <a
+              href="https://www.facebook.com/nitipathaum"
+              className={"facebook"}
+            >
               <FaFacebook />
             </a>
 
