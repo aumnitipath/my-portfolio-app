@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./component/Footer";
 import Header from "./component/Header";
 import MainContent from "./component/MainContent";
 import Myprofile from "./component/Myprofile";
@@ -10,6 +11,7 @@ function App() {
         <Header />
         <Myprofile />
         <MainContent />
+        <Footer />
       </div>
     </>
   );

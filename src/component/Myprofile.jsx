@@ -29,22 +29,19 @@ function Myprofile() {
 
           <div className="follow">
             <span>Follow me</span>
-            <a
-              href="https://www.facebook.com/nitipathaum"
-              className={"facebook"}
-            >
+            <a href="https://www.facebook.com/nitipathaum" className="facebook">
               <FaFacebook />
             </a>
 
-            <a href="" className={"Twitter"}>
+            <a href="" className="Twitter">
               <AiFillTwitterCircle />
             </a>
 
-            <a href="" className={"instagram"}>
+            <a href="" className="instagram">
               <BiLogoInstagramAlt />
             </a>
 
-            <a href="" className={"telegram"}>
+            <a href="" className="telegram">
               <BsTelegram />
             </a>
           </div>
