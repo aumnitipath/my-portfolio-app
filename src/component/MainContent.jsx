@@ -1,4 +1,3 @@
-import React from "react";
 import "./MainContent.css";
 import icon1 from "../assets/images/content-1.svg";
 import icon2 from "../assets/images/content-2.svg";
@@ -10,56 +9,56 @@ function MainContent() {
     <div className="main-container">
       <h1>Why Hire Me?</h1>
       <div className="content-container">
-        <div className="content-box1">
-          <div className="content-icon1">
+        <div className="content-box">
+          <div className="content-icon">
             <img src={icon1} />
           </div>
-          <div className="content-subject1">
+          <div className="content-subject">
             <h2>Communicative</h2>
           </div>
-          <div className="content-description1">
+          <div className="content-description">
             <p>
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint.{" "}
             </p>
           </div>
         </div>
-        <div className="content-box2">
-          <div className="content-icon2">
+        <div className="content-box">
+          <div className="content-icon">
             <img src={icon2} />
           </div>
-          <div className="content-subject2">
+          <div className="content-subject">
             <h2>Professional</h2>
           </div>
-          <div className="content-description2">
+          <div className="content-description">
             <p>
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint.{" "}
             </p>
           </div>
         </div>
-        <div className="content-box3">
-          <div className="content-icon3">
+        <div className="content-box">
+          <div className="content-icon">
             <img src={icon3} />
           </div>
-          <div className="content-subject3">
+          <div className="content-subject">
             <h2>Collaborative​</h2>
           </div>
-          <div className="content-description3">
+          <div className="content-description">
             <p>
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint.{" "}
             </p>
           </div>
         </div>
-        <div className="content-box4">
-          <div className="content-icon4">
+        <div className="content-box">
+          <div className="content-icon">
             <img src={icon4} />
           </div>
-          <div className="content-subject4">
+          <div className="content-subject">
             <h2>Client’s Favourite</h2>
           </div>
-          <div className="content-description4">
+          <div className="content-description">
             <p>
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint.{" "}

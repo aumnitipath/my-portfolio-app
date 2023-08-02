@@ -1,4 +1,3 @@
-import React from "react";
 import "./Footer.css";
 import { BiLogoInstagramAlt, BiLogoTelegram } from "react-icons/bi";
 import { MdEmail } from "react-icons/md";
