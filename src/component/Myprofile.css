@@ -43,6 +43,7 @@
   margin-top: 48px;
   font-size: 18px;
   color: #222222;
+  text-align: start;
 }
 .app-content {
   display: flex;

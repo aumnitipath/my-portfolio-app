@@ -1,0 +1,52 @@
+.portfolio-container {
+  width: 80%;
+}
+.portfolio-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.portfolio-header h1 {
+  padding-left: 250px;
+  color: #222;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 123.6%;
+}
+
+.portfolio-text-more {
+  color: rgba(34, 34, 34, 0.5);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 123.6%; /* 24.72px */
+  text-transform: capitalize;
+}
+
+.portfolio-text-more span {
+  font-size: 20px;
+  padding-left: 8px;
+}
+
+.portfolio-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+  align-items: center;
+}
+
+.portfolio-grid {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 30px;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
