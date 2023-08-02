@@ -1,5 +1,11 @@
 import React from "react";
 import "./Myprofile.css";
+import { FaFacebook } from "react-icons/fa";
+import { AiFillTwitterCircle } from "react-icons/ai";
+import { BiLogoInstagramAlt } from "react-icons/bi";
+import { BsTelegram } from "react-icons/bs";
+import bulletpoint from "../assets/images/Bullet Points.svg";
+import myprofilepic from "../assets/images/img-profile-01.jpg";
 
 function Myprofile() {
   return (
@@ -22,24 +28,36 @@ function Myprofile() {
             </p>
           </div>
 
-          <div className="app-follow-me">
-            <p>Follow me</p>
-            <div className="app-icon-follow">
-              <p>😀</p>
-              <p>👾</p>
-              <p>🚩</p>
-              <p>📝</p>
-            </div>
-          </div>
-        </div>
+          <div className="follow">
+            <span>Follow me</span>
+            <a href="" className={"facebook"}>
+              <FaFacebook />
+            </a>
 
-        <div>
-          <h1>Im Nitipath Chuejuntuk a Frontend developer.</h1>
+            <a href="" className={"Twitter"}>
+              <AiFillTwitterCircle />
+            </a>
+
+            <a href="" className={"instagram"}>
+              <BiLogoInstagramAlt />
+            </a>
+
+            <a href="" className={"telegram"}>
+              <BsTelegram />
+            </a>
+          </div>
+          <div className="app-header-botton">
+            <button className="header-btn1">Send Request</button>
+            <button className="header-btn2">Download CV</button>
+          </div>
         </div>
       </div>
       <div className="app-myprofile-picture">
-        <img className="app-profile-logo" src="/images/img-profile-01.jpg" />
+        <img className="app-profile-logo" src={myprofilepic} />
+
+        <img className="app-profile-dot1" src={bulletpoint} />
       </div>
+      <img className="app-profile-dot2" src={bulletpoint} />
     </div>
   );
 }

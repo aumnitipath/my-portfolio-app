@@ -1,5 +1,4 @@
 .app-container {
-  background-color: #faf4f2;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -7,14 +6,32 @@
   width: 100%;
 }
 
-.app-myprofile-picture img {
+.app-profile-logo {
   display: block;
   border-radius: 100%;
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   position: relative;
+  z-index: 10;
 }
 
+.app-profile-dot1 {
+  position: absolute;
+  width: 245px;
+  height: 179.459px;
+  top: 44%;
+  left: 67%;
+  z-index: 0;
+}
+
+.app-profile-dot2 {
+  position: absolute;
+  width: 245px;
+  height: 179.459px;
+  bottom: 60%;
+  right: 13%;
+  z-index: 0;
+}
 .name-text {
   margin-top: 16px;
   color: #222222;
@@ -32,13 +49,73 @@
   justify-content: space-around;
 }
 
-.app-follow-me {
+.follow {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  margin-top: 30px;
 }
 
-.app-icon-follow {
+.follow span {
+  margin-right: 15px;
+  color: rgba(34, 34, 34, 0.5);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.follow a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 25px;
+}
+
+.facebook {
+  background: #728cf7;
+}
+.Twitter {
+  background: #e17094;
+}
+.instagram {
+  background: #68aaf3;
+}
+.telegram {
+  background: #ff9b70;
+}
+
+.app-header-botton {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+
+  width: 330px;
+  margin-top: 60px;
+}
+
+.header-btn1 {
+  background-color: #ff2950;
+  width: 151px;
+  height: 55px;
+  border-radius: 10px;
+  color: #f9f9f9;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header-btn2 {
+  background-color: #faf4f2;
+  width: 153px;
+  height: 55px;
+  border-radius: 10px;
+  border: 2px solid #ff9b70;
+  color: rgba(34, 34, 34, 0.5);
+  font-size: 18px;
+  font-weight: 500;
 }
