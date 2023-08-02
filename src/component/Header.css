@@ -1,0 +1,16 @@
+.app-header {
+  border-bottom: 1px solid gray;
+  background-color: #ff2950;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+}
+
+.app-header h1 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 62px;
+  color: #ffffff;
+  margin-left: 172px;
+}
