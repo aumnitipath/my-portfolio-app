@@ -16,7 +16,7 @@ function Myprofile() {
           <div>
             <h1 className="name-text">
               I'm Nitipath Chuejuntuk.
-              <br />a Frontend developer.
+              <br />a Full Stack Developer.
             </h1>
           </div>
           <div>
