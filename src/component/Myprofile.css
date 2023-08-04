@@ -10,15 +10,17 @@
 .app-profile-logo {
   display: block;
   border-radius: 100%;
-  width: 350px;
-  height: 350px;
-  position: relative;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 30%;
+  right: 17%;
   z-index: 10;
   object-fit: cover;
 }
 
 .app-profile-dot1 {
-  position: absolute;
+  position: relative;
   width: 245px;
   height: 179.459px;
   top: 44%;
@@ -27,7 +29,7 @@
 }
 
 .app-profile-dot2 {
-  position: absolute;
+  position: relative;
   width: 245px;
   height: 179.459px;
   bottom: 60%;
@@ -131,4 +133,16 @@
   color: rgba(34, 34, 34, 0.5);
   font-size: 18px;
   font-weight: 500;
+}
+
+@media only screen and (width < 1440px) {
+  .app-container {
+    flex-direction: column;
+    order: -1;
+  }
+
+  .app-introduct-name {
+    order: 5;
+    margin-top: 5rem;
+  }
 }

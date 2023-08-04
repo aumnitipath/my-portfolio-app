@@ -1,7 +1,9 @@
+import picture1 from "../images/portfolio-1.png";
+
 const pictures = [
   {
     id: 1,
-    pictureUrl: "/src/assets/images/portfolio-1.png",
+    pictureUrl: picture1,
   },
   {
     id: 2,
